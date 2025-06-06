@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --bg: #120633dc;
+    --primary: rgb(255, 55, 0);
+}
+a{
+    color: inherit;
+}
+h2{
+    font-size: 3rem;
+}
+.btn-link{
+    padding: 10px;
+    background: red;
+    border-radius: 5px;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+body{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("/static/img/0418-templo-del-cielo-altar-imperial-de-sacrificios-en-beijing.webp") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main{
+    display: block;
+}
+header{
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+}
+.p{
+    width: 56%;
+    font-size: 19px;
+
+}
+.span{
+    font-family: serif;
+    font-size: 3rem;
+}
+.span2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.section .span{
+    font-size: 3.5rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.vista{
+    width: 85vw;
+}
+/* Header Styles */
+header{
+    position: fixed;
+    width: 100%;
+}
+.header{
+    justify-content: space-between;
+    color: white;
+}
+.cont-nav{
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    letter-spacing: 1px;
+}
+.header .nav{
+    gap: 1rem;
+}
+.header .link-btn{
+    padding: 1rem;
+    min-width: 100px;
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+.top-hero .span{
+    font-size: 5.5rem;
+}
+.top-hero .span2{
+    font-size: 4.5rem;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    gap: 4rem;
+}
+.others{
+    margin: 5rem 0;
+}
+.top-hero{
+    height: 180vh;
+}
+.img-tophero{
+    width: 100%;
+    height: 700px;
+    background: url("/static/img/istockphoto-2168491650-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.img-tophero_2{
+    background: url("/static/img/istockphoto-1952157610-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.oferta .p{
+    width: 62%;
+}
+
+/* Servicios */
+.services{
+    gap: 4rem;
+    min-height: 120vh;
+}
+.services h2{
+    padding: 4rem 0;
+}
+.cont-services{
+    color: black;
+    text-align: left;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.card-items{
+    padding: 0 1rem;
+    display: grid;
+    gap: 2rem;
+}
+.card-items i{
+    background-color: red;
+    padding: 1rem 1.4rem;
+    border-radius: 2cap;
+    margin-right: 1rem;
+}
+.card-items h3{
+    font-size: 1.5rem;
+}
+.card-items p{
+    font-weight: lighter;
+}
+.t{
+    font-size: 1.4rem;
+}
+.c{
+    font-size: 1.2rem;
+}
+
+
+.others-section{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit,500px);
+    text-align: start;
+    gap: 1rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.other-img{
+    width: 100%;
+    height: 400px;
+    background: url("/static/img/descarga.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.other-img_2{
+    background: url("/static/img/istockphoto-2153478836-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.other-img_3{
+    background: url("/static/img/istockphoto-2096475191-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.others-section .p{
+    width: 100%;
+}
+
+
+.cont-right-items{
+    margin-top: 40%;
+}
+
+.section2{
+    position: relative;
+}
+/* .section2-cont-left{
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+} */
+.cont-right2{
+    display: grid;
+}
+.cont-right2 .p2{
+    width: 220px;
+    min-width: 200px;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(62, 5, 83);
+}
+.cont-right2 .div-img{
+    background: url("/static/img/istockphoto-2148113350-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+
+.cont-right2 .div-img_2{
+    background: url("/static/img/istockphoto-2174551157-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont-right2 .div-img_3{
+    background: url("/static/img/istockphoto-2203184638-612x612.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.grides{
+    display: grid;
+    min-height: 800px;
+}
+.grides .btn-link{
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+.cont-grid{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 600px);
+    height: 500px;
+    gap: 1rem;
+}
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    color: black;
+    background-color: rgb(109, 202, 241);
+    padding: 1rem;
+    height: 570px;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.cont-grid .other-img{
+    height: 300px;
+}
+
+
+
+@media(max-width:912px){
+    .link-btn{
+        display: none;
+    }
+    .p{
+        width: 80%;
+        font-size: 19px;
+    
+    }
+    .span, .span2{
+        font-size: 3rem;
+    }
+}
